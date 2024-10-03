@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-03T12:01:38 IST" name="Surefire suite" finished-at="2024-10-03T12:02:19 IST" duration-ms="40708">
+    <groups>
+    </groups>
+    <test started-at="2024-10-03T12:01:38 IST" name="Surefire test" finished-at="2024-10-03T12:02:19 IST" duration-ms="40708">
+      <class name="com.qa.selenium.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.selenium.tests.LoginTest@3e0e1046]" started-at="2024-10-03T12:01:56 IST" name="setup" finished-at="2024-10-03T12:02:05 IST" duration-ms="9209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pageTitle()[pri:1, instance:com.qa.selenium.tests.LoginTest@3e0e1046]" started-at="2024-10-03T12:02:05 IST" name="pageTitle" finished-at="2024-10-03T12:02:05 IST" duration-ms="20" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Cogmento CRM__] but found [Cogmento CRM]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Cogmento CRM__] but found [Cogmento CRM]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.qa.selenium.tests.LoginTest.pageTitle(LoginTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.qa.selenium.tests.LoginTest@3e0e1046]" started-at="2024-10-03T12:02:05 IST" name="closeDriver" finished-at="2024-10-03T12:02:05 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.selenium.tests.LoginTest@3e0e1046]" started-at="2024-10-03T12:02:05 IST" name="setup" finished-at="2024-10-03T12:02:18 IST" duration-ms="13130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signIn()[pri:2, instance:com.qa.selenium.tests.LoginTest@3e0e1046]" started-at="2024-10-03T12:02:18 IST" name="signIn" finished-at="2024-10-03T12:02:19 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.qa.selenium.tests.LoginTest@3e0e1046]" started-at="2024-10-03T12:02:19 IST" name="closeDriver" finished-at="2024-10-03T12:02:19 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.selenium.tests.LoginTest -->
+      <class name="com.qa.selenium.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.selenium.tests.HomePageTest@1b66c0fb]" started-at="2024-10-03T12:01:49 IST" name="setup" finished-at="2024-10-03T12:01:55 IST" duration-ms="5978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pageTitle()[pri:1, instance:com.qa.selenium.tests.HomePageTest@1b66c0fb]" started-at="2024-10-03T12:01:55 IST" name="pageTitle" finished-at="2024-10-03T12:01:55 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.qa.selenium.tests.HomePageTest@1b66c0fb]" started-at="2024-10-03T12:01:55 IST" name="closeDriver" finished-at="2024-10-03T12:01:56 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.selenium.tests.HomePageTest -->
+      <class name="com.qa.selenium.tests.DashboardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.selenium.tests.DashboardTest@97e93f1]" started-at="2024-10-03T12:01:38 IST" name="setup" finished-at="2024-10-03T12:01:49 IST" duration-ms="11018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pageTitle()[pri:0, instance:com.qa.selenium.tests.DashboardTest@97e93f1]" started-at="2024-10-03T12:01:49 IST" name="pageTitle" finished-at="2024-10-03T12:01:49 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.selenium.tests.DashboardTest@97e93f1]" started-at="2024-10-03T12:01:49 IST" name="quitDriver" finished-at="2024-10-03T12:01:49 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.selenium.tests.DashboardTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

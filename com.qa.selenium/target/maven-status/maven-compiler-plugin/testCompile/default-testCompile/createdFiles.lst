@@ -1,0 +1,4 @@
+com\qa\selenium\tests\Base_old.class
+com\qa\selenium\tests\HomePageTest.class
+com\qa\selenium\tests\DashboardTest.class
+com\qa\selenium\tests\LoginTest.class

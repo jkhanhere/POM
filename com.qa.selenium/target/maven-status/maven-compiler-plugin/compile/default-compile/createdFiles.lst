@@ -1,0 +1,8 @@
+com\qa\selenium\pages\Login.class
+com\qa\selenium\util\TakingScreenShot.class
+com\qa\selenium\util\ReadExcelSheet.class
+com\qa\selenium\base\PropertiesReading.class
+com\qa\selenium\base\base.class
+com\qa\selenium\pages\Dashboard.class
+com\qa\selenium\pages\HomePage.class
+com\qa\selenium\ireporter\ExtentReporterNG.class

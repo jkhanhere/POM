@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-03T11:21:27 IST" name="FreeCRM Automation" finished-at="2024-10-03T11:22:15 IST" duration-ms="47368">
+    <groups>
+    </groups>
+    <test started-at="2024-10-03T11:21:27 IST" name="Regression" finished-at="2024-10-03T11:22:15 IST" duration-ms="47368">
+      <class name="com.qa.selenium.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.selenium.tests.LoginTest@4a194c39]" started-at="2024-10-03T11:21:34 IST" name="setup" finished-at="2024-10-03T11:21:48 IST" duration-ms="14049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pageTitle()[pri:1, instance:com.qa.selenium.tests.LoginTest@4a194c39]" started-at="2024-10-03T11:21:48 IST" name="pageTitle" finished-at="2024-10-03T11:21:48 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.qa.selenium.tests.LoginTest@4a194c39]" started-at="2024-10-03T11:21:48 IST" name="closeDriver" finished-at="2024-10-03T11:21:48 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.selenium.tests.LoginTest@4a194c39]" started-at="2024-10-03T11:21:48 IST" name="setup" finished-at="2024-10-03T11:21:57 IST" duration-ms="8316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signIn()[pri:2, instance:com.qa.selenium.tests.LoginTest@4a194c39]" started-at="2024-10-03T11:21:57 IST" name="signIn" finished-at="2024-10-03T11:21:57 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.qa.selenium.tests.LoginTest@4a194c39]" started-at="2024-10-03T11:21:57 IST" name="closeDriver" finished-at="2024-10-03T11:21:57 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.selenium.tests.LoginTest -->
+      <class name="com.qa.selenium.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.selenium.tests.HomePageTest@37091312]" started-at="2024-10-03T11:21:27 IST" name="setup" finished-at="2024-10-03T11:21:34 IST" duration-ms="6396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pageTitle()[pri:1, instance:com.qa.selenium.tests.HomePageTest@37091312]" started-at="2024-10-03T11:21:34 IST" name="pageTitle" finished-at="2024-10-03T11:21:34 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.qa.selenium.tests.HomePageTest@37091312]" started-at="2024-10-03T11:21:34 IST" name="closeDriver" finished-at="2024-10-03T11:21:34 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.selenium.tests.HomePageTest -->
+      <class name="com.qa.selenium.tests.DashboardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.selenium.tests.DashboardTest@52066604]" started-at="2024-10-03T11:21:57 IST" name="setup" finished-at="2024-10-03T11:22:14 IST" duration-ms="17032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pageTitle()[pri:0, instance:com.qa.selenium.tests.DashboardTest@52066604]" started-at="2024-10-03T11:22:14 IST" name="pageTitle" finished-at="2024-10-03T11:22:14 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.selenium.tests.DashboardTest@52066604]" started-at="2024-10-03T11:22:14 IST" name="quitDriver" finished-at="2024-10-03T11:22:15 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.selenium.tests.DashboardTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- FreeCRM Automation -->
+</testng-results>
